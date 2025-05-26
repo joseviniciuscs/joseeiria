@@ -5,6 +5,7 @@ img {
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 ul,
 li {
@@ -15,4 +16,8 @@ li {
 nav,
 section {
   max-width: 1200px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }

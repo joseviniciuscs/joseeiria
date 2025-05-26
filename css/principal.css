@@ -29,20 +29,18 @@ header {
 
 .navegacao-op span {
   color: white;
-
+  font-family: "Roboto", sans-serif;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
-.navegacao-op span:hover {
-  text-decoration: underline;
-}
 .bg {
   position: relative;
 }
 
 .bg img {
   width: 100%;
-  height: 500px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -54,27 +52,32 @@ header {
 
 .bg-conteudo {
   position: absolute;
-  bottom: 80px;
+  bottom: 20px;
   left: 20px;
 }
 
 .bg-conteudo h1 {
-  font-size: 48px;
+  font-size: 5rem;
   margin-bottom: 10px;
+  color: #ccc;
+  font-family: "Kaushan Script", sans-serif;
 }
 
 .bg-conteudo p {
-  font-size: 14px;
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
   color: #ccc;
   margin-bottom: 20px;
 }
 
 .botao button {
-  margin-right: 10px;
-  padding: 10px 20px;
+  margin-right: 12px;
+  padding: 12px 24px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
 }
 
 .btn-play {
@@ -85,4 +88,43 @@ header {
 .btn-list {
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
+}
+
+/* section 2 */
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 12px;
+}
+
+.container-img {
+  position: relative;
+  display: inline-block;
+}
+
+.container-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.container-img span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
