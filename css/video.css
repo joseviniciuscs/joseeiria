@@ -1,0 +1,28 @@
+h1 {
+  color: #ff4d6d;
+  text-align: center;
+  font-family: "Kaushan Script", sans-serif;
+}
+video {
+  width: 480px;
+  height: 720px;
+  border-radius: 5px;
+  border: #ff4d6d 10px solid;
+  box-shadow: 0 4px 8px rgba(102, 3, 21, 0.2);
+}
+button {
+  background-color: #ff4d6d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "roboto";
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
