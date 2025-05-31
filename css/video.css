@@ -3,6 +3,10 @@ h1 {
   text-align: center;
   font-family: "Kaushan Script", sans-serif;
 }
+.home {
+  color: #ff4d6d;
+  text-decoration: none;
+}
 video {
   width: 480px;
   height: 720px;
